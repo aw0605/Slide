@@ -22,7 +22,7 @@ const Slider = () => {
     // 이전버튼
     const prevSlide = () => {
         if(currentSlide === 0){
-            setCurrentSlide(0);
+            setCurrentSlide(TOTAL_SLIDES);
         }else{
             setCurrentSlide(currentSlide - 1);
         }
